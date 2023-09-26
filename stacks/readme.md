@@ -1,5 +1,35 @@
 # Stack
 
+# Stacks
+
+## Introduction
+
+- LIFO
+- Stack of plates
+- Stack of books
+
+## Real Life Usage
+- Phone call history
+- Browser History
+- Undo Redo
+- Call stacks
+- Parenthesis matching
+
+## Common methods
+
+```Python
+push()
+pop()
+
+peek()
+size()
+is_empty()
+```
+
+## Implementation in Python
+- `list`
+- `deque` 
+
 ## Using Lists
 
 ### Advantages
@@ -32,20 +62,7 @@ Smaller stacks
 
 larger stacks
 
-## Using Linked List
 
-### Advantages
-
-- `O(1)` time complexity for push and pop operations
-- no resizing overhead.
-
-### Disadvantages
-
-- More memory overhead than lists or deques due to storage of node pointers
-
-### Suitable for
-
-- When you need constant-time insertions/deletions from both ends
 
 ## Summary of differences
 
