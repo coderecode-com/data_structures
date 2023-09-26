@@ -1,7 +1,5 @@
 # Stack
 
-# Stacks
-
 ## Introduction
 
 - LIFO
