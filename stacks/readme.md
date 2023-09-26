@@ -56,7 +56,6 @@ larger stacks
 | **Insertion at Start** | O(1)                                                            | O(n)                                     | O(1)                                                                               |
 | **Deletion at Start**  | O(1)                                                            | O(n)                                     | O(1)                                                                               |
 | **Memory Overhead**    | Higher due to extra pointers                                    | Minimal                                  | Moderate due to double-ended nature                                                |
-| **Use                  |                                                                 |                                          |                                                                                    |
-| Case**                 | When you need constant-time insertions/deletions from both ends | When you mostly deal with end operations | When you need operations from both ends but don't want the overhead of linked list |
+| **Use Case**           | When you need constant-time insertions/deletions from both ends | When you mostly deal with end operations | When you need operations from both ends but don't want the overhead of linked list |
 
 
