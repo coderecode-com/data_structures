@@ -74,7 +74,7 @@ def four_times_linear_time(arr):
 2. O(n^2)
 3. O(n).
 
-**Explanation**
+**Explanation**:
 The function iterates over the list once, 
 hence it has a time complexity of O (4n). 
 However, the constants are omitted

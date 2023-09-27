@@ -6,6 +6,13 @@ algorithms, and they play a pivotal role in enhancing the efficiency of Python p
 data storage, retrieval, or manipulation, understanding Python's data structures is crucial for any aspiring Python
 developer.
 
+## [Big O](/big_o)
+
+Big O notation describes the upper limit of an algorithm's runtime as the size of its input grows.
+
+Code: [Click here](/big_o)  
+Video: Coming soon
+
 ## Common Data Structures in Python
 
 ### Lists
