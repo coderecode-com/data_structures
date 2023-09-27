@@ -7,6 +7,7 @@
 - Stack of books
 
 ## Real Life Usage
+
 - Phone call history
 - Browser History
 - Undo Redo
@@ -25,8 +26,9 @@ is_empty()
 ```
 
 ## Implementation in Python
+
 - `list`
-- `deque` 
+- `deque`
 
 ## Using Lists
 
@@ -60,17 +62,15 @@ Smaller stacks
 
 larger stacks
 
-
-
 ## Summary of differences
 
-| Feature/Aspect         | Linked List                                                     | Lists                                    | Deque                                                                              |
-|------------------------|-----------------------------------------------------------------|------------------------------------------|------------------------------------------------------------------------------------|
-| **Insertion at End**   | O(1) with tail pointer                                          | O(1)                                     | O(1)                                                                               |
-| **Deletion at End**    | O(1) with tail pointer                                          | O(1)                                     | O(1)                                                                               |
-| **Insertion at Start** | O(1)                                                            | O(n)                                     | O(1)                                                                               |
-| **Deletion at Start**  | O(1)                                                            | O(n)                                     | O(1)                                                                               |
-| **Memory Overhead**    | Higher due to extra pointers                                    | Minimal                                  | Moderate due to double-ended nature                                                |
-| **Use Case**           | When you need constant-time insertions/deletions from both ends | When you mostly deal with end operations | When you need operations from both ends but don't want the overhead of linked list |
+| Feature/Aspect         | Lists                                    | Deque                                                                              |
+|------------------------|------------------------------------------|------------------------------------------------------------------------------------|
+| **Insertion at End**   | O(1)                                     | O(1)                                                                               |
+| **Deletion at End**    | O(1)                                     | O(1)                                                                               |
+| **Insertion at Start** | O(n)                                     | O(1)                                                                               |
+| **Deletion at Start**  | O(n)                                     | O(1)                                                                               |
+| **Memory Overhead**    | Minimal                                  | Moderate due to double-ended nature                                                |
+| **Use Case**           | When you mostly deal with end operations | When you need operations from both ends but don't want the overhead of linked list |
 
 
